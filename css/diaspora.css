@@ -209,7 +209,7 @@ h1.title {font-size:30px;color:#333;line-height:1.3;position:relative;font-weigh
 .content > h1,.content > h2,.content > h3,.content > h4,.content > h5,.content > h6 {margin-top:2rem;margin-bottom:0.8rem;color:#000;}
 .content > h1:first-child,.content > h2:first-child,.content > h3:first-child,.content > h4:first-child,.content > h5:first-child,.content > h6:first-child {margin-top:0;}
 .content img {cursor:pointer;}
-.content pre,.content .highlight {background:#2d2d2d;margin:1.6rem 0;padding:0.8rem 0.8rem;border-style:solid;border-width:1px 0;overflow:auto;color:#ccc;line-height:20px;}
+.content pre,.content .highlight {background:#f5f5f5;margin:1.6rem 0;padding:0.8rem 0.8rem;overflow:auto;color:#333;line-height:20px;}
 .content .gutter {display:none;}
 .content .highlight .gutter pre {color:#666;font-size:0.9rem;}
 .content code,.content pre {font-family:"Source Code Pro",monospace}
@@ -231,13 +231,14 @@ h1.title {font-size:30px;color:#333;line-height:1.3;position:relative;font-weigh
 .content .video-container {position:relative;padding-bottom:56.25%;padding-top:25px;height:0;}
 .content .video-container iframe {position:absolute;top:0;left:0;width:100%;height:100%;}
 pre .comment,pre .title {color:#999;}
-pre .variable,pre .attribute,pre .tag,pre .regexp,pre .ruby .constant,pre .xml .tag,pre .title,pre .xml .pi,pre .xml .doctype,pre .html .doctype,pre .css .id,pre .css .class,pre .css .pseudo {color:#f2777a;}
-pre .number,pre .preprocessor,pre .built_in,pre .literal,pre .params,pre .constant {color:#f99157;}
+pre .variable,pre .attribute,pre .tag,pre .regexp,pre .ruby .constant,pre .xml .tag,pre .title,pre .xml .pi,pre .xml .doctype,pre .html .doctype,pre .css .id,pre .css .class,pre .css .pseudo {color:#6532b1;}
+pre .number,pre .preprocessor,pre .built_in,pre .literal,pre .params,pre .constant {color:#a71d5d;}
 pre .class,pre .ruby .class .title,pre .css .rules .attribute {color:#99cc99;}
-pre .string,pre .value,pre .inheritance,pre .header,pre .ruby .symbol,pre .xml .cdata {color:#99cc99;}
+pre .string,pre .value,pre .inheritance,pre .header,pre .ruby .symbol,pre .xml .cdata {color:#183691;}
 pre .css .hexcolor {color:#66cccc;}
 pre .function,pre .python .decorator,pre .python .title,pre .ruby .function .title,pre .ruby .title .keyword,pre .perl .sub,pre .javascript .title,pre .coffeescript .title {color:#6699cc;}
-pre .keyword,pre .javascript .function {color:#cc99cc;}
+pre .keyword,pre .javascript .function {color:#a71d5d;}
+.meta{color: #FF1987}
 
 /* Responsive style */
 @media screen and (max-width:1200px) {
